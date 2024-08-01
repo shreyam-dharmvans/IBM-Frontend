@@ -1,0 +1,26 @@
+
+.slider-container{
+    background:#FAF9F6;
+    margin: 10px auto;
+}
+.text{
+    color:#cc2244d0;
+    display:flex;
+    gap:100px;
+    animation: scroll 20s linear infinite;
+    transform: translateX(-600px);
+    
+}
+.sub-text{
+    transform: translateX(-600px);
+    font-size: 1.5em;
+}
+
+@keyframes scroll{
+    0%{
+        transform: translateX(1200px);
+    }
+    100%{
+        transform: translateX(-1200px);
+    }
+}

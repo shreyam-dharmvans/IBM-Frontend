@@ -1,0 +1,42 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+.container {
+    margin:5% auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(71, 51, 51, 0.1);
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .form-control:hover,.form-control:focus {
+    box-shadow: 0 1px 5px rgba(24, 134, 252, 0.2);
+  }
+  
+  textarea.form-control {
+    resize: vertical;
+    height:minmax(100px,300px);
+    resize:100px;
+  }
+  
+  button.btn {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .alert {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+  }
