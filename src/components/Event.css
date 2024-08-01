@@ -1,34 +1,36 @@
-
-.schedule{
+.schedule {
     display: flex;
-    color: grey;  
+    color: grey;
 }
-.schedule span{
+
+.schedule span {
     flex-basis: 50%;
 }
-.Venue >a{
+
+.Venue>a {
     text-decoration: none;
     color: black;
 }
-.Venue>a:hover{
-   opacity: .7;
+
+.Venue>a:hover {
+    opacity: .7;
 }
 
-.car{
-    width: 51rem !important;
-    margin: 47px 160px !important;
+.car {
+    width: 80% !important;
+    /* margin: 47px 160px !important; */
     height: 382px;
     border: solid #0000005c 1px;
 }
 
-.w-style{
+.w-style {
     width: 80%;
 }
 
-.body-style{
-    width: 64% ;
-    padding: 40px 19px ;
-    margin-left: 132px;
+.body-style {
+    /* width: 64% ; */
+    padding: 40px 19px;
+    /* margin-left: 132px; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
