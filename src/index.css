@@ -1,0 +1,19 @@
+.landing-section {
+    display: flex;
+    align-items: center;
+    margin-top: 81px !important;
+    margin-bottom: 109px !important;
+    background-color: #0a58ca24;
+    padding: 27px;
+    width: 100% !important;
+}
+
+.text-landing {
+    border-radius: 24px;
+}
+
+.landing-section {
+    font-size: 16px;
+    margin-right: 27px;
+    font-weight: 600;
+}
