@@ -1,4 +1,3 @@
-import React from 'react'
 import landing from '../../public/landingImg.jpg'
 
 export const LandingSection = () => {
